@@ -1,11 +1,6 @@
-def pattern(n):
-      for i in range(0, n):
-           for j in range(0, i + 1):
-                print("* ", end="")
-           print("\r")
-      for i in range(n, 0 , -1):
-          for j in range(0, i + 1):
-               print("* ", end="")
-          print("\r")
+size = int(input("Enter the size of the triangle: "))
  
-pattern(5)
+for i in range(size):
+    for j in range(i+1):
+        print("*", end="")
+    print()

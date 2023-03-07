@@ -1,27 +1,12 @@
-# distance between trains when bee starts flying
-distance = 100
-
-# speed of first train in km/h
-speed_train1 = 50
-
-# speed of second train in km/h
-speed_train2 = 70
-
-# speed of bee in km/h
-speed_bee = 80
-
-# distance travelled by bee in km
-distance_bee = 0
-
-# time taken by trains to collide in hours
-time_collision = distance / (speed_train1 + speed_train2)
-
-# distance travelled by bee until trains collide
-distance_bee = time_collision * speed_bee * 2
-
-# time taken by trains to collide in minutes
-time_collision = time_collision * 60
-
-# print results
-print("Distance travelled by bee:", distance_bee, "km")
-print("Time taken by trains to collide:", time_collision, "minutes")
+v1 = 50 #speed of train 1 in km/h
+v2 = 70 #speed of train 2 in km/h
+vb = 80 #speed of bee in km/h
+d = 100 #distance between train
+# time taken for trains to collide in hours
+t = d / (v1 + v2)
+# total distance travelled by bee
+db = vb * t
+print("Total distance travelled by the bee in time till the collision:", db, "km")
+# conversion in minutes
+time_in_minutes = t * 60
+print("Time taken for the trains to collide in minutes :", time_in_minutes, "minutes")

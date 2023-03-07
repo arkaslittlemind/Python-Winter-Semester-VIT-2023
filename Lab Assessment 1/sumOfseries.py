@@ -1,5 +1,3 @@
-
-
 n =int(input("Enter number of terms in series: "))
 series = int(input("Enter starting value of the series: ")) 
 sum = 0  

@@ -16,7 +16,7 @@ print("\n")
 
 # loop to calculate the sum of the series
 for i in range(n):
-    term = int(str(series) * (i+1))  # calculate the i-th term of the series
-    sum += term  # add the i-th term to the sum variable
+    term = int(str(series) * (i+1))  
+    sum += term  
 
 print("Sum of the series:", sum)

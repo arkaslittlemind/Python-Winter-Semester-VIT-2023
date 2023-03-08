@@ -10,7 +10,7 @@ for i in range(0, n):
     sum1 += start
     start = (start * 10) + series
 
-print("\n")
+print()
 
 # loop to calculate the sum of the series
 for i in range(n):

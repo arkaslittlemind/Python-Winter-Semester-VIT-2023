@@ -1,4 +1,4 @@
-onRoadprice = int(input("Enter the On Road onRoadprice of the bike: "))
+onRoadprice = int(input("Enter the on road price of the bike: "))
 
 if onRoadprice >= 200000:
     tax = 0.2 * onRoadprice

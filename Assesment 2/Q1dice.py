@@ -11,3 +11,4 @@ for i in range(N):
 probability = M / N
 
 print("The probability that the number of eyes on the black die is larger than the number of eyes on the green die:", probability)
+

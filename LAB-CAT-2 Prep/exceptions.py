@@ -5,7 +5,7 @@ try:
     for i in range(1, 11):
         print(f"{int(a)} x {i} = {int(a) * i}") 
 
-except Exception as e:
-    print(e)
+except:
+    print("Cant multiply string with int")
     
-print("End of program")
+print("End of program") 

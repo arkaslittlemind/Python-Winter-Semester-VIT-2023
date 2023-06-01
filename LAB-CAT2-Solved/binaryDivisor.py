@@ -1,4 +1,4 @@
-print("Enter the comma seperated 4 digit binary number sequence: ")
+print("Enter the comma separated 4 digit binary number sequence: ")
 items = []
 
 nums = [x for x in input(). split(',')]

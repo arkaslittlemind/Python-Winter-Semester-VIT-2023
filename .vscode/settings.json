@@ -6,6 +6,8 @@
         "pyplot",
         "Roadprice",
         "Toeplitz",
+        "Toletter",
+        "Toletters",
         "travelled"
     ]
 }
